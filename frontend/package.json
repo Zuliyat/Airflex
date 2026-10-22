@@ -1,18 +1,17 @@
-
 {
   "name": "airflex-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "tsc --noEmit",
     "test": "jest",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "node init && storybook build"
   },
   "dependencies": {
     "@airflex/shared": "workspace:*",
@@ -54,4 +53,3 @@
     "webpack": "5.101.2"
   }
 }
-
