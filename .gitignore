@@ -66,8 +66,6 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
-.env.*
 !.env.example
 !server/.env.test
 
@@ -159,3 +157,4 @@ frontend/public/workbox-*.js
 frontend/public/worker-*.js
 frontend/public/swe-worker-*.js
 frontend/public/fallback-*.js
+config.bat
